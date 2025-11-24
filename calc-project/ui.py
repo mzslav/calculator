@@ -1,7 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
 
-from functions import add, multiply, subtract, divide
+from add import add
+from multiply import multiply
+from subtract import subtract
+from divide import divide
 
 def calculate(operation):
     try:
