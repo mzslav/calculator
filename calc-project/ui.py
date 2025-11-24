@@ -13,7 +13,7 @@ def calculate(operation):
 
     try:
         if operation == "add":
-            result = multiply(a, b)
+            result = add(a, b)
         elif operation == "multiply":
             result = multiply(a, b)
         elif operation == "subtract":
